@@ -75,6 +75,8 @@ hr:not([size]) {
   height: 1px;
 }
 
+
+
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -4116,6 +4118,25 @@ textarea.form-control-lg {
 .bigcolumn {
   float: left;
   width: 70%;
+}
+.bigcol {
+  float: right ;
+  width: 70% ;
+}
+.smallcol {
+  float: right;
+  width: 30%;
+}
+@media only screen and (max-width: 1000px) {
+  /* for widths less than or equal to 629 pixels */
+  .bigcol {
+    float: none ;
+    width: 100% ;
+  }
+  .smallcol {
+    float: none ;
+    width: 100% ;
+  }
 }
 
 /* Clear floats after the columns */
