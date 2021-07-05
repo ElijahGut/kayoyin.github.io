@@ -2351,7 +2351,7 @@ progress {
 
 .badge-bibtex {
   color: #fff;
-  background-color: #c5a61a;
+  background-color: #744705;
 }
 .badge-pdf {
   color: #fff;
@@ -2364,6 +2364,11 @@ progress {
 .badge-abs {
   color: #fff;
   background-color: #777777;
+}
+.badge-sp {
+  color: #fff;
+  background-color: #ffc400;
+  font-size: 10rem;
 }
 .badge-secondary[href]:hover, .badge-secondary[href]:focus {
   color: #fff;
